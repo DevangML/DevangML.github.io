@@ -1,4 +1,7 @@
-<center>This is the repository for my portfolio website.
+#Portfolio Website
+
+
+**This is the repository for my portfolio website.**
 
 This Website has been created using HTML, CSS and JavaScript.
 
@@ -6,5 +9,4 @@ This Website has been created using HTML, CSS and JavaScript.
 
 Thank You for visiting my repo.
   
-</center>
 
