@@ -38,7 +38,7 @@ html {
   max-width: 100%;
   height: auto;
   background: 
-    url(images/bg.jpg) center no-repeat;  
+    url(images/bg.png) no-repeat center;  
   opacity: 90%;
   background-size: cover;
   flex-direction: column;
@@ -58,15 +58,51 @@ html {
   transform: skew(-10deg);
 }
 
-.person-img {
-  width: 25rem;
-  height: 25rem;
-  object-fit: cover;
+.zoom {
+  width: 20.5em;
+  height: 20.2em;
+
   border-radius: 50%;
   border: 0.7rem dotted #e41c6f;
   background-color: rgba(255, 255, 255, 0.7);
   padding: 0.5rem;
+  overflow: hidden;
+  margin: 16px auto;
+  
 }
+
+.zoom img:hover{transform: scale(1.2);}
+
+.zoom img{width: 100%;
+  
+  background-color: rgba(255, 255, 255, 0.7);
+  overflow: hidden;
+  border-radius: 50%;
+  transition: transform .4s; /* Animation */
+  margin: 0 auto;}
+
+.service-heading{  
+  object-fit: cover;
+  transition: transform .4s; /* Animation */
+  margin: 0 auto;}
+
+.service-heading:hover{transform: scale(1.3);}
+
+#lb,#ct,#dyn,#ft{
+  transition: transform .4s; /* Animation */}
+
+#lb:hover,#ct:hover,#dyn:hover,#ft:hover{transform: scale(1.3);}
+
+.background-wrapper-center{transition: transform .4s;}
+.background-wrapper-center:hover{transform: scale(1.07);}
+
+.projects-wrapper-center{transition: transform .4s;}
+.projects-wrapper-center:hover{transform: scale(1.102);}
+
+.progress-bar{transition: transform .4s;}
+.progress-bar:hover{transform: scale(1.102);}
+
+#Foot-text{font-size: 2rem; color: rgb(255, 225, 170);}
 
 .person-name {
   font-size: 2rem;
@@ -490,3 +526,5 @@ html {
   }
 }
 /* End of Responsive */
+
+

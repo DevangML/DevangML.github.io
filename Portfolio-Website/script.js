@@ -34,8 +34,21 @@ const mainFn = () => {
   }
 };
 
+(function() {
+
+  var img = document.getElementById('zoom').firstChild;
+  img.onload = function() {
+      if(img.height > img.width) {
+          img.height = '100%';
+          img.width = 'auto';
+      }
+  };
+  
+  }());
+
 mainFn();
 
 window.addEventListener("resize", () => {
   window.location.reload();
 });
+
