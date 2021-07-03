@@ -9,7 +9,8 @@
 	<title>Portfolio Website</title>
 	<link rel="stylesheet" href="style.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
-	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet" />
 </head>
 
 <body>
@@ -20,10 +21,29 @@
 			<div class="zoom">
 				<img src="images/devang.jpg" alt="Devang Manjramkar" class="person-img" />
 			</div>
-			<div class="navbar center" id="navbar-id"> <a href="#section-1" class="navbar-link">Home</a>  <a href="#section-2" class="navbar-link">About</a>  <a href="#section-3" class="navbar-link">Background</a>  <a href="#section-p" class="navbar-link">Projects</a>  <a href="#section-4" class="navbar-link">Contact</a> 
-				<a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i> 
-				</a>
-			</div>
+			
+			<div class="navbar" id="navbar-id">
+				<a href="#section-1" class="navbar-link">Home</a>
+				<a href="#section-2" class="navbar-link">About</a>
+				<a href="#section-3" class="navbar-link">Background</a>
+				<a href="#section-4" class="navbar-link">Projects</a>
+
+				<div class="dropdown">
+					<button class="dropbtn">Dropdown
+					<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+					<a href="#section-1">Home</a>
+					<a href="#section-2">About</a>
+					<a href="#section-3">Background</a>
+					<a href="#section-4">Projects</a>
+					</div>
+				</div>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+				</div>
+			
+			
+			
 			<section class="section-2" id="section-2">
 				<h1 class="section-heading section-2-heading" id="about-me">About Me</h1>
 				<div class="progress-bars-wrapper">
@@ -79,19 +99,24 @@
 						<br>I love Machine Learning, artificial intelligence and web development.
 						<br>I am a Linux enthusiast and like to keep Fedora as my main machine.
 						<br>I am a security and privacy enthusiast too.
-						<br>Over the last one year I have gained some hand over C, C++, Python, HTML, CSS and JavaScript, with two projects one in C and other in Python.
-						<br>I am also executive committee member of IEEE Student Branch, VIT Pune.</p>
+						<br>Over the last one year I have gained some hand over C, C++, Python, HTML, CSS and
+						JavaScript, with two projects one in C and other in Python.
+						<br>I am also executive committee member of IEEE Student Branch, VIT Pune.
+					</p>
 				</div>
 			</section>
 			<section class="section-p" id="section-p">
 				<h1 class="section-heading section-p-heading" id="p-heading">Projects</h1>
-				<div class="projects-wrapper-center"><a href="https://github.com/DevangML/Advanced-Scientific-Calculator" class="a-p" target="_blank">Advanced-Scientific-Calculator</a>
+				<div class="projects-wrapper-center"><a
+						href="https://github.com/DevangML/Advanced-Scientific-Calculator" class="a-p"
+						target="_blank">Advanced-Scientific-Calculator</a>
 					<img src="../images/ASC.png" border="0" alt="Null" id="img-asc">
 				</div>
 			</section>
 			<section class="section-4" id="section-4">
 				<h1 class="section-heading section-4-heading">Contact Me</h1>
-				<form class="contact-form center" action="mailto:devangmanjramkar@gmail.com" method=”POST” enctype=”multipart/form-data”>
+				<form class="contact-form center" action="mailto:devangmanjramkar@gmail.com" method=”POST”
+					enctype=”multipart/form-data”>
 					<input type="text" placeholder="Name" />
 					<input type="email" placeholder="Email" />
 					<textarea placeholder="Message"></textarea>
@@ -100,9 +125,11 @@
 			</section>
 			<footer class="section-5 center">
 				<div class="social-media">
-					<a href="https://github.com/DevangML" class="social-media-link" target="_blank"> <i class="fab fa-github-square"></i> 
+					<a href="https://github.com/DevangML" class="social-media-link" target="_blank"> <i
+							class="fab fa-github-square"></i>
 					</a>
-					<a href="https://in.linkedin.com/in/mldev02" class="social-media-link" target="_blank"> <i class="fab fa-linkedin"></i> 
+					<a href="https://in.linkedin.com/in/mldev02" class="social-media-link" target="_blank"> <i
+							class="fab fa-linkedin"></i>
 					</a>
 					</a>
 					<br>
